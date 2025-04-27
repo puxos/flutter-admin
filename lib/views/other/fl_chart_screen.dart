@@ -1019,16 +1019,12 @@ class _FlChartScreenState extends State<FlChartScreen> with SingleTickerProvider
         return Container();
     }
 
-    return SideTitleWidget(
-      axisSide: meta.axisSide,
-      space: 4,
-      child: MyText.bodyMedium(text, fontSize: 12, fontWeight: 600),
-    );
+    return SideTitleWidget(meta: meta, space: 4, child: MyText.bodyMedium(text, fontSize: 12, fontWeight: 600));
   }
 
   Widget leftTitleWidgets(double value, TitleMeta meta) {
     const style = TextStyle(fontSize: 12);
-    return SideTitleWidget(axisSide: meta.axisSide, child: Text('\$ ${value + 0.5}', style: style));
+    return SideTitleWidget(meta: meta, child: Text('\$ ${value + 0.5}', style: style));
   }
 
   Widget leftTitles(double value, TitleMeta meta) {
@@ -1043,7 +1039,7 @@ class _FlChartScreenState extends State<FlChartScreen> with SingleTickerProvider
     } else {
       return Container();
     }
-    return SideTitleWidget(axisSide: meta.axisSide, space: 0, child: Text(text, style: style));
+    return SideTitleWidget(meta: meta, space: 0, child: Text(text, style: style));
   }
 
   Widget bottomTitles(double value, TitleMeta meta) {
@@ -1055,7 +1051,7 @@ class _FlChartScreenState extends State<FlChartScreen> with SingleTickerProvider
     );
 
     return SideTitleWidget(
-      axisSide: meta.axisSide,
+      meta: meta,
       space: 16, //margin top
       child: text,
     );
@@ -1104,7 +1100,7 @@ class _FlChartScreenState extends State<FlChartScreen> with SingleTickerProvider
       default:
         text = '';
     }
-    return SideTitleWidget(axisSide: meta.axisSide, child: Text(text, style: style));
+    return SideTitleWidget(meta: meta, child: Text(text, style: style));
   }
 }
 

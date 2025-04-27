@@ -13,10 +13,10 @@ packages:
     dependency: "direct main"
     description:
       name: appflowy_editor
-      sha256: f8df03fa8020feceae0cf2bd60384187b32b71e9e95b99f7e0a4dcdd44a171cf
+      sha256: "77e7a8da4474b3ee95aee860d782a48400ed57bbf4f8bd574231cfb21218dabb"
       url: "https://pub.dev"
     source: hosted
-    version: "3.3.0"
+    version: "5.2.0"
   archive:
     dependency: transitive
     description:
@@ -149,10 +149,10 @@ packages:
     dependency: transitive
     description:
       name: device_info_plus
-      sha256: a7fd703482b391a87d60b6061d04dfdeab07826b96f9abd8f5ed98068acc0074
+      sha256: "0c6396126421b590089447154c5f98a5de423b70cfb15b1578fd018843ee6f53"
       url: "https://pub.dev"
     source: hosted
-    version: "10.1.2"
+    version: "11.4.0"
   device_info_plus_platform_interface:
     dependency: transitive
     description:
@@ -245,10 +245,10 @@ packages:
     dependency: "direct main"
     description:
       name: fl_chart
-      sha256: "74959b99b92b9eebeed1a4049426fd67c4abc3c5a0f4d12e2877097d6a11ae08"
+      sha256: f2e9137f261d0f53a820f6b829c80ba570ac915284c8e32789d973834796eca0
       url: "https://pub.dev"
     source: hosted
-    version: "0.69.2"
+    version: "0.71.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -343,10 +343,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_quill
-      sha256: "6274834823e61291c0cedee9dd7f73fc7836ea07a12596de8f5fa08598b5eb74"
+      sha256: de019f6160023d36ad3e89343da6d740ab66ae7839875c89871fbeabcb9e8f9b
       url: "https://pub.dev"
     source: hosted
-    version: "10.8.5"
+    version: "11.4.0"
   flutter_quill_delta_from_html:
     dependency: transitive
     description:
@@ -785,10 +785,10 @@ packages:
     dependency: transitive
     description:
       name: quill_native_bridge
-      sha256: "0b3200c57bb4f1f12d6c764648d42482891f20f12024c75fe3479cafc1e132c9"
+      sha256: "00752aca7d67cbd3254709a47558be78427750cb81aa42cfbed354d4a079bcfa"
       url: "https://pub.dev"
     source: hosted
-    version: "10.7.11"
+    version: "11.0.1"
   quill_native_bridge_android:
     dependency: transitive
     description:
@@ -1034,14 +1034,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.4"
-  timelines:
-    dependency: "direct main"
-    description:
-      name: timelines
-      sha256: "40214f5ab772ff45459cb8c15e5f60505a6828af0c0eb1eec6f29ed911a4c1c5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.0"
   timezone:
     dependency: transitive
     description:
@@ -1214,10 +1206,10 @@ packages:
     dependency: transitive
     description:
       name: win32_registry
-      sha256: "21ec76dfc731550fd3e2ce7a33a9ea90b828fdf19a5c3bcf556fa992cfa99852"
+      sha256: "6f1b564492d0147b330dd794fee8f512cec4977957f310f9951b5f9d83618dae"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.5"
+    version: "2.1.0"
   xdg_directories:
     dependency: transitive
     description:

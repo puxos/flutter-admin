@@ -94,7 +94,7 @@ class FlChartController extends MyController {
         break;
     }
 
-    return SideTitleWidget(axisSide: meta.axisSide, space: 10, child: text);
+    return SideTitleWidget(meta: meta, space: 10, child: text);
   }
 
   Widget leftTitleWidgets(double value, TitleMeta meta) {
@@ -353,7 +353,7 @@ class FlChartController extends MyController {
         text = '';
         break;
     }
-    return SideTitleWidget(axisSide: meta.axisSide, space: 4, child: Text(text, style: style));
+    return SideTitleWidget(meta: meta, space: 4, child: Text(text, style: style));
   }
 
   List<BarChartGroupData> get barGroups => [

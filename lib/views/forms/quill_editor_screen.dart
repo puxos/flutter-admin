@@ -62,22 +62,14 @@ class _QuillEditorScreenState extends State<QuillEditorScreen> with SingleTicker
                       child: MyContainer(
                         child: Column(
                           children: [
-                            QuillToolbar.simple(
-                              configurations: QuillSimpleToolbarConfigurations(
-                                controller: controller.quillController,
-                                headerStyleType: HeaderStyleType.original,
-                                sharedConfigurations: QuillSharedConfigurations(locale: Locale('de')),
-                              ),
+                            QuillSimpleToolbar(
+                              controller: controller.quillController,
+                              config: QuillSimpleToolbarConfig(headerStyleType: HeaderStyleType.original),
                             ),
                             SingleChildScrollView(
                               child: SizedBox(
                                 height: 300,
-                                child: QuillEditor.basic(
-                                  configurations: QuillEditorConfigurations(
-                                    controller: controller.quillController,
-                                    sharedConfigurations: QuillSharedConfigurations(locale: Locale('de')),
-                                  ),
-                                ),
+                                child: QuillEditor.basic(controller: controller.quillController),
                               ),
                             ),
                           ],

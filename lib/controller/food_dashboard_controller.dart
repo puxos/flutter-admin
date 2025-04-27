@@ -142,7 +142,7 @@ class FoodDashboardController extends MyController {
         break;
     }
 
-    return SideTitleWidget(axisSide: meta.axisSide, child: text);
+    return SideTitleWidget(meta: meta, child: text);
   }
 
   Widget leftTitleWidgets(double value, TitleMeta meta) {
